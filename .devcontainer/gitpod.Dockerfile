@@ -1,1 +1,1 @@
-FROM gcr.io/containerlabs/gitpod/terraform:latest
+FROM gcr.io/containerlabs/gitpod/terraform:14
