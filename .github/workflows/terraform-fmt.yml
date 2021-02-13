@@ -1,0 +1,22 @@
+name: 'Terraform Workflow'
+on:
+  - push
+jobs:
+  terraform:
+    name: 'Terraform Actions'
+    timeout-minutes: 3
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'GitHub Checkout'
+        uses: actions/checkout@master
+      - name: 'Fmt Check'
+        uses: hashicorp/setup-terraform@v1
+      - run: terraform fmt -recursive
+      - name: 'commit changes'
+        uses: EndBug/add-and-commit@v4
+        with:
+          author_name: TF Robot
+          author_email: robot@containerlabs.com
+          message: 'Committing terraform fmt changes'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
