@@ -1,10 +1,14 @@
-image:
-  file: .devcontainer/gitpod.Dockerfile
-
-# TODO: make this configurable for monorepo support
-tasks:
-  - init: terraform init
-
-vscode:
-  extensions:
-    - hashicorp.terraform
+{
+  "name": "Container Labs Terraform",
+  "extensions": [
+      "hashicorp.terraform"
+  ],
+  "dockerFile": "Dockerfile",
+  "settings": {
+      "terminal.integrated.shell.linux": "/usr/bin/zsh",
+      "files.exclude": {
+          "**/CODE_OF_CONDUCT.md": true,
+          "**/LICENSE": true
+      }
+  }
+}
