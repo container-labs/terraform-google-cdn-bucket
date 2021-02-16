@@ -1,2 +1,2 @@
 # TODO: create a devcontainer base image
-FROM gcr.io/containerlabs/devcontainer/terraform:latest
+FROM us-central1-docker.pkg.dev/containerlabs/devcontainer/terraform:14
