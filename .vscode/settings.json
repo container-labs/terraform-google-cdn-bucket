@@ -1,6 +1,6 @@
 
 // These are workspace settings, managed by Terraform
-// User settings override these, so if you'd like to 
+// User settings override these, so if you'd like to
 // change these, please change them there
 {
     "[terraform]": {
@@ -8,5 +8,6 @@
     },
     "terraform-ls.experimentalFeatures": {
         "validateOnSave": true
-    }    
+    },
+    "workbench.colorTheme": "Community Material Theme High Contrast"
 }
