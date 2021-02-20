@@ -1,1 +1,1 @@
-FROM us-central1-docker.pkg.dev/containerlabs/gitpod/terraform@sha256:ab3af86e92544a96e5345a4d2afe3708df95c343a6d573a381256989ef1fb6b4
+FROM us-central1-docker.pkg.dev/containerlabs/gitpod/terraform@sha256:e40d41d87d93db3675819680e81a0023cfb10a869a5d9f52a35088520f85c5c8
