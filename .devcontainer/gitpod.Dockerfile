@@ -1,2 +1,2 @@
 # THIS FILE IS GENERATED, EDITS WILL BE OVERWRITTEN
-FROM us-central1-docker.pkg.dev/containerlabs/gitpod/terraform@sha256:e40d41d87d93db3675819680e81a0023cfb10a869a5d9f52a35088520f85c5c8
+FROM us-central1-docker.pkg.dev/containerlabs/gitpod/terraform@sha256:9bec03be9d77dd55807e439b918e072688fd86c1702e2f858ea0821051001fe4
