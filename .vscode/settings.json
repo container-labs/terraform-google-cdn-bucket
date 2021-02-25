@@ -4,6 +4,7 @@
   "workbench.startupEditor": "readme",
   "workbench.colorTheme": "Community Material Theme High Contrast",
   "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "name": "things",
   "[terraform]": {
     "editor.formatOnSave": true
   },
