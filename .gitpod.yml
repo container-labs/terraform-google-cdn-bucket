@@ -3,6 +3,7 @@ image:
   file: ".devcontainer/gitpod.Dockerfile"
 tasks:
 - init: terraform init
+  command: zsh
 vscode:
   extensions:
   - coenraads.bracket-pair-colorizer-2
